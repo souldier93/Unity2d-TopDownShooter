@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - weapon
+  - HealthBar
+  - AkBullet
+  - PistolBullet
+  - ShotgunBullet
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - enemy
+  - itemBullet
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Bakcground
+    uniqueID: 4118688811
+    locked: 0
+  - name: Collectable
+    uniqueID: 3091370511
+    locked: 0
+  - name: Bullet
+    uniqueID: 3095850309
+    locked: 0
+  - name: Player
+    uniqueID: 504964499
+    locked: 0
+  - name: Enemy
+    uniqueID: 2339974461
+    locked: 0
+  - name: Weapon
+    uniqueID: 3511705183
+    locked: 0
+  - name: HealthBar
+    uniqueID: 3344364003
+    locked: 0
+  - name: ShadowItem
+    uniqueID: 1030063489
+    locked: 0
