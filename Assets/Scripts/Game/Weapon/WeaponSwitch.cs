@@ -146,6 +146,7 @@ public class WeaponSwitch : MonoBehaviour
             guns[i] = weaponHolder.transform.GetChild(i).gameObject;
             guns[i].SetActive(false);
 
+            //xy ly hinh anh cho sung
             if(i >= 0 && i <= 2)
             {
                 imgGun[i] = ImgGun.transform.GetChild(i).GetComponent<Image>();
