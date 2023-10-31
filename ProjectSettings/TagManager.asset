@@ -9,6 +9,8 @@ TagManager:
   - AkBullet
   - PistolBullet
   - ShotgunBullet
+  - Meat
+  - Steak
   layers:
   - Default
   - TransparentFX

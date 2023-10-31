@@ -13,4 +13,6 @@ public static class GameManager
     public static int pistolBulletCount = 0;
     public static int shotgunBulletCount = 0;
 
+    public static int meat = 0;
+    public static int steak = 0;
 }
