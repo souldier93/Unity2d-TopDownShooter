@@ -18,7 +18,7 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<FixedEnemyMovement>())
+        if (collision.GetComponent<FixedEnemyMovement>() || collision.GetComponent<AnimalController>())
         {
             HealthController healthController = collision.GetComponent<HealthController>();
             healthController.TakeDamage(10);

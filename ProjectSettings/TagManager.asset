@@ -9,6 +9,7 @@ TagManager:
   - AkBullet
   - PistolBullet
   - ShotgunBullet
+  - Animal
   layers:
   - Default
   - TransparentFX
@@ -69,4 +70,7 @@ TagManager:
     locked: 0
   - name: ShadowItem
     uniqueID: 1030063489
+    locked: 0
+  - name: Animal
+    uniqueID: 1366232585
     locked: 0
