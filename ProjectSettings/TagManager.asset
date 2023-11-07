@@ -11,6 +11,7 @@ TagManager:
   - ShotgunBullet
   - Meat
   - Steak
+  - MainTower
   layers:
   - Default
   - TransparentFX
@@ -71,4 +72,10 @@ TagManager:
     locked: 0
   - name: ShadowItem
     uniqueID: 1030063489
+    locked: 0
+  - name: tree
+    uniqueID: 3970973453
+    locked: 0
+  - name: bush
+    uniqueID: 1710729025
     locked: 0

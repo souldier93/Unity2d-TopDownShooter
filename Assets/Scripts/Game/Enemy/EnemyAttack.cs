@@ -14,7 +14,7 @@ public class EnemyAttack : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.GetComponent<PlayerMovement>())
+        if (collision.gameObject.GetComponent<PlayerMovement>() || collision.gameObject.CompareTag("MainTower"))
         {
             _animator.SetTrigger("isAttack1");
             var HealthController = collision.gameObject.GetComponent<HealthController>();

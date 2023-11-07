@@ -1,0 +1,1228 @@
+fileFormatVersion: 2
+guid: 309150dadb9df8d4fa4804497850a566
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Tower 02 - Level 03 - Weapon_Frame_24
+    originalName: 
+    pivot: {x: 0.46511626, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 366
+      width: 43
+      height: 52
+    spriteID: 60cb2a992a279ae468f0b4a1f57bb7ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 366}
+  - name: Tower 02 - Level 03 - Weapon_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 306
+      width: 44
+      height: 52
+    spriteID: 80ece68c918d5d14d844c30aa43343d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 306}
+  - name: Tower 02 - Level 03 - Weapon_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: -0.16981132}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 64
+      width: 48
+      height: 53
+    spriteID: 8744e956f49eae34e97c13022f51e921
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 64}
+  - name: Tower 02 - Level 03 - Weapon_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 186
+      width: 48
+      height: 52
+    spriteID: 674a5edd7381ddf4685c315b3228bef9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 186}
+  - name: Tower 02 - Level 03 - Weapon_Frame_28
+    originalName: 
+    pivot: {x: 0.4509804, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 124
+      width: 51
+      height: 52
+    spriteID: e8fb43cd1c976a849a3a4b666f08ea91
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 124}
+  - name: Tower 02 - Level 03 - Weapon_Frame_29
+    originalName: 
+    pivot: {x: 0.4489796, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 431
+      width: 49
+      height: 52
+    spriteID: 6c69287411a779349b713365eb45ddd6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 431}
+  - name: Tower 02 - Level 03 - Weapon_Frame_30
+    originalName: 
+    pivot: {x: 0.54901963, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 184
+      width: 51
+      height: 52
+    spriteID: 0414b730f176c4e4f88a0e8ff7ed1dcb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 184}
+  - name: Tower 02 - Level 03 - Weapon_Frame_31
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 64
+      width: 54
+      height: 52
+    spriteID: c9a587782e1f1fa4385e8d493f9cab4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 64}
+  - name: Tower 02 - Level 03 - Weapon_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 56
+      height: 52
+    spriteID: 245bd9d96678c9f46a497efb12c8496c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Tower 02 - Level 03 - Weapon_Frame_33
+    originalName: 
+    pivot: {x: 0.5208334, y: -0.14814815}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 307
+      width: 48
+      height: 54
+    spriteID: ff6bb4a234dc15a45b1122eed2998609
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 307}
+  - name: Tower 02 - Level 03 - Weapon_Frame_34
+    originalName: 
+    pivot: {x: 0.45833334, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 246
+      width: 48
+      height: 52
+    spriteID: 1b26f636a52515042ad2857fb1af154e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 246}
+  - name: Tower 02 - Level 03 - Weapon_Frame_35
+    originalName: 
+    pivot: {x: 0.46938774, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 4
+      width: 49
+      height: 52
+    spriteID: 067753ca37fa72340b3ff5ce53219448
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 4}
+  - name: Tower 02 - Level 03 - Weapon_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: -0.16981132}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 125
+      width: 48
+      height: 53
+    spriteID: 8dd307d2f80e86743bcadf500885d3d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 125}
+  - name: Tower 02 - Level 03 - Weapon_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: -0.14814815}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 369
+      width: 48
+      height: 54
+    spriteID: 9f41cc269e2d6124689f56fac86c37bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 369}
+  - name: Tower 02 - Level 03 - Weapon_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: -0.12727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 244
+      width: 48
+      height: 55
+    spriteID: 2e646450d6a188b4591c0eec6009f29e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 244}
+  - name: Tower 02 - Level 03 - Weapon_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.11538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 426
+      width: 28
+      height: 52
+    spriteID: 185c521a32a561949bf8cf72f0ba0c9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 426}
+  - name: Tower 02 - Level 03 - Weapon_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.13461539}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 4
+      width: 28
+      height: 52
+    spriteID: ce71b5b59b41ddc4a94894bc73676d60
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 4}
+  - name: Tower 02 - Level 03 - Weapon_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 64
+      width: 28
+      height: 52
+    spriteID: 4468b5e0dc77d8b45972db1d7e6c4ff3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 64}
+  - name: Tower 02 - Level 03 - Weapon_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.17307693}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 124
+      width: 28
+      height: 52
+    spriteID: 4267aa2d610b9c542915789aea85eb0a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 124}
+  - name: Tower 02 - Level 03 - Weapon_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 184
+      width: 28
+      height: 52
+    spriteID: 03dcb6fd27afea84d8c5d42e443e8974
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 184}
+  - name: Tower 02 - Level 03 - Weapon_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 244
+      width: 28
+      height: 52
+    spriteID: 6aaf8f0de1728a2489eb59dab300c893
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 244}
+  - name: Tower 02 - Level 03 - Weapon_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 304
+      width: 28
+      height: 52
+    spriteID: d9fc7b0a3f134c745a6ed63a93b67064
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 304}
+  - name: Tower 02 - Level 03 - Weapon_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.17307693}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 364
+      width: 28
+      height: 52
+    spriteID: a6c06dbda3b87b44597029ca1161f90c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 364}
+  - name: Tower 02 - Level 03 - Weapon_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 424
+      width: 28
+      height: 52
+    spriteID: 4339b2aec69c8534b933eb0152febc04
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 424}
+  - name: Tower 02 - Level 03 - Weapon_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.13461539}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 4
+      width: 28
+      height: 52
+    spriteID: dedc07f3c7e492c4babae41d11c0ce16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 4}
+  - name: Tower 02 - Level 03 - Weapon_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.11538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 64
+      width: 28
+      height: 52
+    spriteID: 86ce67d369814cd4e921a510338bdf2d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 64}
+  - name: Tower 02 - Level 03 - Weapon_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.09615385}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 124
+      width: 28
+      height: 52
+    spriteID: d1da8ee8b71a06d498155a492aa88bf8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 124}
+  - name: Tower 02 - Level 03 - Weapon_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 184
+      width: 28
+      height: 52
+    spriteID: af5fb9af151078941878d78cb4bffa19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 184}
+  - name: Tower 02 - Level 03 - Weapon_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.05769231}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 244
+      width: 28
+      height: 52
+    spriteID: 5d95a8712cebf8e4989ec0e564093cf8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 244}
+  - name: Tower 02 - Level 03 - Weapon_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 304
+      width: 28
+      height: 52
+    spriteID: 39205df9e100d14419e965d78bc15d13
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 304}
+  - name: Tower 02 - Level 03 - Weapon_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 364
+      width: 28
+      height: 52
+    spriteID: 4c86b68d9340cb547a4e6738b29e0d8f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 364}
+  - name: Tower 02 - Level 03 - Weapon_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 424
+      width: 28
+      height: 52
+    spriteID: b15f7738e39a18e478f35a6c8806cbff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 424}
+  - name: Tower 02 - Level 03 - Weapon_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.05769231}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 197
+      y: 4
+      width: 28
+      height: 52
+    spriteID: b52b57d9ec3e0aa459222fcfa6346388
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 197, y: 4}
+  - name: Tower 02 - Level 03 - Weapon_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 197
+      y: 64
+      width: 28
+      height: 52
+    spriteID: a661e6b2a880624469c08870f0025e82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 197, y: 64}
+  - name: Tower 02 - Level 03 - Weapon_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -0.09615385}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 197
+      y: 124
+      width: 28
+      height: 52
+    spriteID: 290153a59f03a8247a8d6ca8c9267523
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 197, y: 124}
+  - name: Tower 02 - Level 03 - Weapon_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -0.11538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 197
+      y: 184
+      width: 28
+      height: 52
+    spriteID: 10675ddecbe82914581c2bc6a69cb695
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 197, y: 184}
+  - name: Tower 02 - Level 03 - Weapon_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -0.17307693}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 197
+      y: 244
+      width: 28
+      height: 52
+    spriteID: ef5a8034bc01d094ba26ada3c0fc9b2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 197, y: 244}
+  - name: Tower 02 - Level 03 - Weapon_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 197
+      y: 304
+      width: 28
+      height: 52
+    spriteID: 952bf6530a6961d49a68b659c5990005
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 197, y: 304}
+  - name: Tower 02 - Level 03 - Weapon_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 197
+      y: 364
+      width: 28
+      height: 52
+    spriteID: 6081e705cac77f7488d7049444d49ece
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 197, y: 364}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 274382420
+    name: Tower 02 - Level 03 - Weapon
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Tower 02 - Level 03 - Weapon_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 12
+        y: 10
+        width: 43
+        height: 52
+      spriteId: 60cb2a992a279ae468f0b4a1f57bb7ec
+    - name: Tower 02 - Level 03 - Weapon_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 10
+        y: 10
+        width: 44
+        height: 52
+      spriteId: 80ece68c918d5d14d844c30aa43343d0
+    - name: Tower 02 - Level 03 - Weapon_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 8
+        y: 9
+        width: 48
+        height: 53
+      spriteId: 8744e956f49eae34e97c13022f51e921
+    - name: Tower 02 - Level 03 - Weapon_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 8
+        y: 10
+        width: 48
+        height: 52
+      spriteId: 674a5edd7381ddf4685c315b3228bef9
+    - name: Tower 02 - Level 03 - Weapon_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 9
+        y: 10
+        width: 51
+        height: 52
+      spriteId: e8fb43cd1c976a849a3a4b666f08ea91
+    - name: Tower 02 - Level 03 - Weapon_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 10
+        y: 10
+        width: 49
+        height: 52
+      spriteId: 6c69287411a779349b713365eb45ddd6
+    - name: Tower 02 - Level 03 - Weapon_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 4
+        y: 10
+        width: 51
+        height: 52
+      spriteId: 0414b730f176c4e4f88a0e8ff7ed1dcb
+    - name: Tower 02 - Level 03 - Weapon_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 2
+        y: 10
+        width: 54
+        height: 52
+      spriteId: c9a587782e1f1fa4385e8d493f9cab4e
+    - name: Tower 02 - Level 03 - Weapon_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 4
+        y: 10
+        width: 56
+        height: 52
+      spriteId: 245bd9d96678c9f46a497efb12c8496c
+    - name: Tower 02 - Level 03 - Weapon_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 7
+        y: 8
+        width: 48
+        height: 54
+      spriteId: ff6bb4a234dc15a45b1122eed2998609
+    - name: Tower 02 - Level 03 - Weapon_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 10
+        y: 10
+        width: 48
+        height: 52
+      spriteId: 1b26f636a52515042ad2857fb1af154e
+    - name: Tower 02 - Level 03 - Weapon_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 9
+        y: 10
+        width: 49
+        height: 52
+      spriteId: 067753ca37fa72340b3ff5ce53219448
+    - name: Tower 02 - Level 03 - Weapon_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 8
+        y: 9
+        width: 48
+        height: 53
+      spriteId: 8dd307d2f80e86743bcadf500885d3d6
+    - name: Tower 02 - Level 03 - Weapon_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 8
+        y: 8
+        width: 48
+        height: 54
+      spriteId: 9f41cc269e2d6124689f56fac86c37bc
+    - name: Tower 02 - Level 03 - Weapon_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 8
+        y: 7
+        width: 48
+        height: 55
+      spriteId: 2e646450d6a188b4591c0eec6009f29e
+    - name: Tower 02 - Level 03 - Weapon_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 18
+        y: 6
+        width: 28
+        height: 52
+      spriteId: 185c521a32a561949bf8cf72f0ba0c9a
+    - name: Tower 02 - Level 03 - Weapon_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 18
+        y: 7
+        width: 28
+        height: 52
+      spriteId: ce71b5b59b41ddc4a94894bc73676d60
+    - name: Tower 02 - Level 03 - Weapon_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 18
+        y: 8
+        width: 28
+        height: 52
+      spriteId: 4468b5e0dc77d8b45972db1d7e6c4ff3
+    - name: Tower 02 - Level 03 - Weapon_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 18
+        y: 9
+        width: 28
+        height: 52
+      spriteId: 4267aa2d610b9c542915789aea85eb0a
+    - name: Tower 02 - Level 03 - Weapon_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 18
+        y: 10
+        width: 28
+        height: 52
+      spriteId: 03dcb6fd27afea84d8c5d42e443e8974
+    - name: Tower 02 - Level 03 - Weapon_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 18
+        y: 10
+        width: 28
+        height: 52
+      spriteId: 6aaf8f0de1728a2489eb59dab300c893
+    - name: Tower 02 - Level 03 - Weapon_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 18
+        y: 10
+        width: 28
+        height: 52
+      spriteId: d9fc7b0a3f134c745a6ed63a93b67064
+    - name: Tower 02 - Level 03 - Weapon_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 18
+        y: 9
+        width: 28
+        height: 52
+      spriteId: a6c06dbda3b87b44597029ca1161f90c
+    - name: Tower 02 - Level 03 - Weapon_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 18
+        y: 8
+        width: 28
+        height: 52
+      spriteId: 4339b2aec69c8534b933eb0152febc04
+    - name: Tower 02 - Level 03 - Weapon_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 18
+        y: 7
+        width: 28
+        height: 52
+      spriteId: dedc07f3c7e492c4babae41d11c0ce16
+    - name: Tower 02 - Level 03 - Weapon_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 18
+        y: 6
+        width: 28
+        height: 52
+      spriteId: 86ce67d369814cd4e921a510338bdf2d
+    - name: Tower 02 - Level 03 - Weapon_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 18
+        y: 5
+        width: 28
+        height: 52
+      spriteId: d1da8ee8b71a06d498155a492aa88bf8
+    - name: Tower 02 - Level 03 - Weapon_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 18
+        y: 4
+        width: 28
+        height: 52
+      spriteId: af5fb9af151078941878d78cb4bffa19
+    - name: Tower 02 - Level 03 - Weapon_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 18
+        y: 3
+        width: 28
+        height: 52
+      spriteId: 5d95a8712cebf8e4989ec0e564093cf8
+    - name: Tower 02 - Level 03 - Weapon_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 18
+        y: 2
+        width: 28
+        height: 52
+      spriteId: 39205df9e100d14419e965d78bc15d13
+    - name: Tower 02 - Level 03 - Weapon_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 18
+        y: 2
+        width: 28
+        height: 52
+      spriteId: 4c86b68d9340cb547a4e6738b29e0d8f
+    - name: Tower 02 - Level 03 - Weapon_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 18
+        y: 2
+        width: 28
+        height: 52
+      spriteId: b15f7738e39a18e478f35a6c8806cbff
+    - name: Tower 02 - Level 03 - Weapon_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 18
+        y: 3
+        width: 28
+        height: 52
+      spriteId: b52b57d9ec3e0aa459222fcfa6346388
+    - name: Tower 02 - Level 03 - Weapon_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 18
+        y: 4
+        width: 28
+        height: 52
+      spriteId: a661e6b2a880624469c08870f0025e82
+    - name: Tower 02 - Level 03 - Weapon_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 18
+        y: 5
+        width: 28
+        height: 52
+      spriteId: 290153a59f03a8247a8d6ca8c9267523
+    - name: Tower 02 - Level 03 - Weapon_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 18
+        y: 6
+        width: 28
+        height: 52
+      spriteId: 10675ddecbe82914581c2bc6a69cb695
+    - name: Tower 02 - Level 03 - Weapon_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 18
+        y: 9
+        width: 28
+        height: 52
+      spriteId: ef5a8034bc01d094ba26ada3c0fc9b2f
+    - name: Tower 02 - Level 03 - Weapon_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 18
+        y: 10
+        width: 28
+        height: 52
+      spriteId: 952bf6530a6961d49a68b659c5990005
+    - name: Tower 02 - Level 03 - Weapon_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 18
+        y: 10
+        width: 28
+        height: 52
+      spriteId: 6081e705cac77f7488d7049444d49ece
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
