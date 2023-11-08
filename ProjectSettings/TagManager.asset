@@ -12,6 +12,8 @@ TagManager:
   - Meat
   - Steak
   - MainTower
+  - Enemy
+  - Animal
   layers:
   - Default
   - TransparentFX
@@ -78,4 +80,7 @@ TagManager:
     locked: 0
   - name: bush
     uniqueID: 1710729025
+    locked: 0
+  - name: animal
+    uniqueID: 737866661
     locked: 0

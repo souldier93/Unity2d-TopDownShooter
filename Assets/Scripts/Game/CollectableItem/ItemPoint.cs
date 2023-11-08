@@ -23,14 +23,26 @@ public class ItemPoint : MonoBehaviour
     }
 
 
-    public void CreateItem(Vector3 _potition)
+    public void CreateItem(Vector3 _potition,int type)
     {
-        // Kiểm tra xem có rơi item hay không
-        if (ShouldDropItem())
+        if (type == 1)
         {
-            // Tạo item drop dựa trên tỉ lệ đã định
-            DropItem(_potition);
+            // Kiểm tra xem có rơi item hay không
+            if (ShouldDropItem())
+            {
+                // Tạo item drop dựa trên tỉ lệ đã định
+                DropItem(_potition,1);
+            }
         }
+        if(type == 2) 
+        {
+            DropItem(_potition,2);
+        }
+        if (type == 3)
+        {
+            DropItem(_potition, 3);
+        }
+
     }
 
 
@@ -48,24 +60,37 @@ public class ItemPoint : MonoBehaviour
         return false;
     }
 
-    private void DropItem(Vector3 potition)
+    private void DropItem(Vector3 potition, int type)
     {
-
-        float randomValue2 = Random.value;
-        // Xác định item sẽ được rơi dựa trên giá trị ngẫu nhiên
         GameObject itemToDrop = null;
 
-        if (randomValue2 >= rateAkBullet && randomValue2 <= ratePistolBullet)
+        if (type == 1)
         {
-            itemToDrop = Bullet[0]; // pistolbullet
+            float randomValue2 = Random.value;
+            // Xác định item sẽ được rơi dựa trên giá trị ngẫu nhiên
+
+            if (randomValue2 >= rateAkBullet && randomValue2 <= ratePistolBullet)
+            {
+                itemToDrop = Bullet[0]; // pistolbullet
+            }
+            else if (randomValue2 >= rateShotgunBullet && randomValue2 <= rateAkBullet)
+            {
+                itemToDrop = Bullet[1]; // akbullet
+            }
+            else if (randomValue2 <= rateShotgunBullet)
+            {
+                itemToDrop = Bullet[2]; // shotgunbullet
+            }
         }
-        else if (randomValue2 >= rateShotgunBullet && randomValue2 <= rateAkBullet)
+
+        if(type == 2)
         {
-            itemToDrop = Bullet[1]; // akbullet
+            itemToDrop = Bullet[3]; // pig meat
         }
-        else if (randomValue2 <= rateShotgunBullet)
+
+        if (type == 3)
         {
-            itemToDrop = Bullet[2]; // shotgunbullet
+            itemToDrop = Bullet[4]; // cow meat
         }
 
         // Kiểm tra xem itemToDrop có tồn tại hay không

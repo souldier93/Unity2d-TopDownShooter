@@ -15,4 +15,8 @@ public static class GameManager
 
     public static int meat = 0;
     public static int steak = 0;
+
+    public static int wood = 300;
+    public static int rock = 300;
+
 }

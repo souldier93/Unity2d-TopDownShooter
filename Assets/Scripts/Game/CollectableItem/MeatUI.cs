@@ -18,6 +18,6 @@ public class MeatUI : MonoBehaviour
     // Update is called once per frame
     public void UpdateMeat(MeatController meatController)
     {
-        MeatQuantity.text = $"Meat: {meatController.Meat}";
+        MeatQuantity.text = $"Meat: {GameManager.meat}";
     }
 }

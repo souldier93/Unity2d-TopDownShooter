@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 6843807251272194935}
   m_Layer: 6
   m_Name: Boss
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -172,7 +172,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.1934376, y: -0.028689384}
+  m_Offset: {x: 1.1350149, y: -0.9890485}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -183,7 +183,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 6.4715366, y: 10.184307}
+  m_Size: {x: 3.9009979, y: 8.263589}
   m_EdgeRadius: 0
 --- !u!114 &3520514671080748967
 MonoBehaviour:
@@ -197,8 +197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 163670a9f51889a49a81624ab0195e4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
-  chasingDistance: 50
+  speed: 2.5
 --- !u!114 &8378704458710959346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,7 +210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de833ab9449b12944b455864656bc9ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _damageAmount: 10
+  _damageAmount: 20
 --- !u!114 &8091268743959972652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,8 +223,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c44d267320780074ebb6d408675336ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _currentHealth: 100
-  _maximumHealth: 100
+  _currentHealth: 200
+  _maximumHealth: 200
   onDied:
     m_PersistentCalls:
       m_Calls:

@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 3570313084262879488}
   m_Layer: 6
   m_Name: Goblin
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 163670a9f51889a49a81624ab0195e4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
 --- !u!114 &-8721771351796155192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c44d267320780074ebb6d408675336ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _currentHealth: 60
+  _currentHealth: 50
   _maximumHealth: 100
   onDied:
     m_PersistentCalls:

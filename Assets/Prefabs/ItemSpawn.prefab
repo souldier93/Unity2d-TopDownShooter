@@ -48,6 +48,8 @@ MonoBehaviour:
   - {fileID: 1287006009671415278, guid: 80cb59ef9921c104fbc30f0398fd1a75, type: 3}
   - {fileID: 2597161825417835512, guid: 93c90febaf238fe448bf6be0a0f191be, type: 3}
   - {fileID: 4955803595639920125, guid: 3dbbc2957f7bfd34ea891f0c776d619b, type: 3}
+  - {fileID: 2970955584723697423, guid: a341abf78c4082c4b99b02640c5d3ba7, type: 3}
+  - {fileID: 7950595486475339272, guid: 82bc3be9dcb625149aed4c322f0093a6, type: 3}
   ratePistolBullet: 1
   rateAkBullet: 0.3
   rateShotgunBullet: 0.1

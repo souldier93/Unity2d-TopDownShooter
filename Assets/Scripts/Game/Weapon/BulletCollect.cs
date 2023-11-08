@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class BulletCollect : MonoBehaviour
 {
@@ -8,10 +9,34 @@ public class BulletCollect : MonoBehaviour
     private int HealthItemAdd = 1;
     private MeatController MeatController;
     private SteakController steakController;
+    private WoodController woodController;
+    private RockController rockController;
     private void Start()
     {
         MeatController = GetComponent<MeatController>();
         steakController = GetComponent<SteakController>();
+        woodController = GetComponent<WoodController>();
+        rockController = GetComponent<RockController>();
+
+        woodController.WoodChange(GameManager.wood);
+        rockController.RockChange(GameManager.rock);
+
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("MainTower"))
+        {
+            if (Keyboard.current[Key.E].wasPressedThisFrame && GameManager.wood >= 100 && GameManager.rock >= 100)
+            {
+                GameManager.wood -= 100;
+                GameManager.rock -= 100;
+                woodController.WoodChange(GameManager.wood);
+                rockController.RockChange(GameManager.rock);
+                var HealthController = collision.gameObject.GetComponent<HealthController>();
+                HealthController.AddHealth(100);
+            }
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -42,5 +67,6 @@ public class BulletCollect : MonoBehaviour
             steakController.SteakChange(GameManager.meat);
             Destroy(collision.gameObject);
         }
+        
     }
 }

@@ -49,7 +49,7 @@ MonoBehaviour:
   - {fileID: 4969654544163741967, guid: 70cbaff294ad7954f8cb49b07e75aa3c, type: 3}
   - {fileID: 7141923631998788287, guid: 8a9c232d5c9dbbc4b87a419cc0c0c83b, type: 3}
   - {fileID: 1756846065868467112, guid: 1ae734017bb40b948a87e8a18dfa2e69, type: 3}
-  minimumSpawnTime: 2
+  minimumSpawnTime: 4
   maximumSpawnTime: 5
 --- !u!95 &5939034505624805949
 Animator:

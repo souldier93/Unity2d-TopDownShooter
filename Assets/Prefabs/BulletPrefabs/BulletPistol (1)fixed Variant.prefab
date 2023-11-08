@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1575613998300612087, guid: 6126db31cf6ff1d419f1b3efbed476e8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.5231
+      value: 8.685707
       objectReference: {fileID: 0}
     - target: {fileID: 1575613998300612087, guid: 6126db31cf6ff1d419f1b3efbed476e8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.2541
+      value: -1.7415193
       objectReference: {fileID: 0}
     - target: {fileID: 1575613998300612087, guid: 6126db31cf6ff1d419f1b3efbed476e8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2355414778713234221, guid: 6126db31cf6ff1d419f1b3efbed476e8, type: 3}
+      propertyPath: dameOfBullet
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4168251626889562815, guid: 6126db31cf6ff1d419f1b3efbed476e8, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -55,6 +59,22 @@ PrefabInstance:
     - target: {fileID: 5928590840973727718, guid: 6126db31cf6ff1d419f1b3efbed476e8, type: 3}
       propertyPath: m_Name
       value: BulletPistol (1)fixed Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6043140820576195576, guid: 6126db31cf6ff1d419f1b3efbed476e8, type: 3}
+      propertyPath: m_Size.x
+      value: 0.98551357
+      objectReference: {fileID: 0}
+    - target: {fileID: 6043140820576195576, guid: 6126db31cf6ff1d419f1b3efbed476e8, type: 3}
+      propertyPath: m_Size.y
+      value: 0.22387089
+      objectReference: {fileID: 0}
+    - target: {fileID: 6043140820576195576, guid: 6126db31cf6ff1d419f1b3efbed476e8, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.3260901
+      objectReference: {fileID: 0}
+    - target: {fileID: 6043140820576195576, guid: 6126db31cf6ff1d419f1b3efbed476e8, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.18806458
       objectReference: {fileID: 0}
     - target: {fileID: 6043140820576195576, guid: 6126db31cf6ff1d419f1b3efbed476e8, type: 3}
       propertyPath: m_SpriteTilingProperty.border.w
